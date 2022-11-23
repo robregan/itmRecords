@@ -809,6 +809,12 @@ footer a:hover, footer a:focus {
     .mouse {
         display: none!important;
     }
+    .ytplayer-container:after{
+        background-image: url('../images/background1.jpg');
+    }
+    .backstretch:after{
+        background-image: url('../images/background1.jpg');
+    }
 }
 @media only screen and (max-width: 756px) {
     .subscribe input[type=text] {
@@ -878,9 +884,8 @@ footer a:hover, footer a:focus {
     .welcome .logo {
         width: auto!important;
     }
-    header {
-        padding-top: 15px;
-    }
+
+   
 }
 @media only screen and (max-width: 540px) {
     .contact input[type="submit"] {
