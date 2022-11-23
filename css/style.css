@@ -22,12 +22,13 @@
 
 html,
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Indie Flower', cursive !important;
+
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    font-size: 14px;
+    font-size: 19px;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -775,8 +776,9 @@ footer a:hover, footer a:focus {
 .location a{
     color:white;
     text-decoration: underline !important;
-    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    
 }
 @media only screen and (max-width: 1036px) {
     header .logo img {
