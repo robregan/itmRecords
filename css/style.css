@@ -819,7 +819,12 @@ footer a:hover, footer a:focus {
         background-image: url('../images/background1.jpg');
     }
     .backstretch:after{
-        background-image: url('../images/background1.jpg');
+        background-image: url("../images/Stratton-Mountain.jpeg");
+        background-size: cover;
+        object-fit: contain;
+    }
+    #bella{
+        color: black !important;
     }
 }
 @media only screen and (max-width: 756px) {
